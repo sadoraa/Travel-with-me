@@ -1,0 +1,70 @@
+html{
+    background-image:url("https://th.bing.com/th/id/R.1c45ff344773fb085f5b555d9a72e949?rik=PS6XHz4xPRAEgQ&riu=http%3a%2f%2fancientworldwonders.com%2fuploads%2fPyramids_of_Giza.jpg&ehk=etzi7rqznIqK%2bm2C7WEMGxNAsFIWutT5Nr6j136V6BU%3d&risl=&pid=ImgRaw&r=0");
+    background-size:cover;
+    background-repeat:no repeat;
+}
+body{
+    background: rgb(255, 255,255,0.74);
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+    font-family: 'raleway';
+    padding: 20px;
+    border-radius: 10px ;
+}
+h1,p{
+    text-align: center;
+    margin: auto;
+}
+label{
+    display: block;
+    margin: 1em;
+}
+input,select{
+display: block;
+width: 100%;
+font-size: 20px;
+padding: 0.3em;
+background-color: #fbfbfb;
+border: solid 1px #CCC;
+resize: vertical;
+border-radius: 10px;
+}
+input[type=checkbox], input[type=radio] {
+display: inline;
+width: auto;
+}
+.inline-label{
+display: inline;
+width: auto;
+}
+option{
+    color: black;
+    background: rgb(255, 255, 255);
+}
+select{
+    color: indigo;
+}
+input[type=submit]:hover,
+input[type=submit]:focus{
+    outline: none;
+    background: rgb(5,129,88);
+    color: white;
+}
+input[type=reset]:hover,
+input[type=reset]:focus{
+    outline: none;
+    background: rgb(192, 3, 18);
+color: white;
+}
+input[type=reset],
+input[type=submit]{
+    background: rgb(27, 44, 141);
+    color: white;
+    margin-top: 1em;
+    border-radius: 10px;
+}
+p::first-letter{
+    color: rgb(226, 43, 202);
+    font-size: large;
+}
